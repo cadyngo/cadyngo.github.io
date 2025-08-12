@@ -4,7 +4,7 @@
 // literal magnification scale
 @for $i from 1 through 10 {
   .#{$fa-css-prefix}-#{$i}x {
-    font-size: $i * 0.8em; // icon size!
+    font-size: $i * 0.2em; // icon size!
   }
 }
 
