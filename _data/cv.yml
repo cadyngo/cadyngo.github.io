@@ -1,19 +1,19 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Albert Einstein
-#     - name: Date of Birth
-#       value: 14th March 1879
+ - title: General Information
+   type: map
+   contents:
+     - name: Full Name
+       value: Cady Hanh Ngo
+     - name: Citizenship
+       value: USA
 #     - name: Languages
-#       value: English, German
+#       value: English, Vietnamese
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: PhD
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1905
+ - title: Education
+   type: time_table
+   contents:
+     - title: B.A. in Mathematics and Economics, minor in Statistics 
+       institution: Grinnell College
+       year: Aug 2021 - May 2025
 #       description:
 #         - Description 1.
 #         - Description 2.
@@ -21,9 +21,9 @@
 #           contents:
 #             - Sub-description 1.
 #             - Sub-description 2.
-#     - title: Federal teaching diploma
-#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#       year: 1900
+     - title: Visiting Student
+       institution: University of Edinburgh
+       year: Jan 2024 - May 2024
 #       description:
 #         - Description 1.
 #         - Description 2.
