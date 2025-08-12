@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Social and Decision Neuroscience @ <a href='https://camerergroup.sites.caltech.edu'>Caltech</a>.
+# subtitle: Social and Decision Neuroscience @ <a href='https://camerergroup.sites.caltech.edu'>Caltech</a>.
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Chen Predoctoral Researcher for the Camerer Group at Caltech. I hold dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
+I am a predoctoral researcher in Social and Decision Neuroscience for the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I hold dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
 
 My research interests broadly span behavioral game theory, experimental economics, and neuroeconomics. I am particularly focused on understanding decision-making under conditions of risk and uncertainty.
 
