@@ -6,8 +6,8 @@ title: Cady H. Ngo # the website title (if blank, full name will be used instead
 first_name: Cady
 middle_name: H.
 last_name: Ngo
-contact_note: >
-  Contact me via email at [chngo@caltech.edu](mailto:chngo@caltech.edu)!
+# contact_note: >
+  # Contact me via email at <a href="mailto:chngo@caltech.edu">chngo@caltech.edu</a>!
 # description: > # the ">" symbol means to ignore newlines until "footer_text:"
   # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 # footer_text: >
