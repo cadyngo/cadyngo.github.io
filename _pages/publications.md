@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /research/ #/publications/
 title: Research
 hide_title: true
 description:
@@ -20,7 +20,7 @@ Toma, F. M., Spoon, R., Henning, T., **Ngo, C. H.**, Camerer, C. F., & Smith, A.
 
 <br>
 
-Hu, S., Saito, K., Imai, T., Fujino, J., **Ngo, C. H.**, Camerer, C. F. Disorders of Rationality – Is Austistic
+Hu, S., Saito, K., Imai, T., Fujino, J., **Ngo, C. H.**, Camerer, C. F. Disorders of Rationality – Is Autistic
 Systematizing Associated with Economic Consistent Rationality?
 
 <br>
@@ -29,7 +29,7 @@ Systematizing Associated with Economic Consistent Rationality?
 
 <br>
 
-**Ngo, C. H.** (provisional title) Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music.
+**Ngo, C. H.** Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music.
 
 <br>
 
