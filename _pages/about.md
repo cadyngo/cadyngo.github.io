@@ -29,12 +29,21 @@ latest_posts:
 
 I am a predoctoral researcher in Social and Decision Neuroscience for the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I hold dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
 
-My research interests broadly span behavioral game theory, experimental economics, and neuroeconomics. I am particularly focused on understanding decision-making under conditions of risk and uncertainty.
+My current research draws from behavioral game theory, experimental economics, and neuroeconomics. I am particularly interested in decision-making under cognitive limitations, with projects exploring risk and uncertainty in financial markets, human responses to supernormal stimuli, and level-k reasoning in individuals with autism.
 
-Contact me at [chngo@caltech.edu](mailto:chngo@caltech.edu)!
+**This website is currently under construction. Please check back in a month. :\)**
 
-**This website is currently under construction. Please come back in a month's time! :\)**
+**Feel free to contact me at [chngo@caltech.edu](mailto:chngo@caltech.edu) in the meantime!**
 
+<!-- As an undergraduate, I conducted applied social and economic research, studying nutrition-related behavioral risk factors at my alma mater and location-based determinants of upward mobility through a joint program between Harvard’s Opportunity Insights and PREDOC.org. I had the privilege of presenting these works at multiple venues, notably the World Bank and the Federal Reserve in Washington, D.C.
+
+I am a proponent of interdisciplinary works
+-->
+
+<!-- My long-term goals (at least for now) are to (1) develop experimentally grounded models of how cognitive limitations shape decision-making across domains, (2) investigate the role of environmental and habitual factors in shaping choice behavior, and (3) design and test interventions that improve decision-making in real-world contexts, from education to financial and health outcomes.-->
+
+<!-- My research interests broadly span behavioral game theory, experimental economics, and neuroeconomics. I am particularly focused on understanding decision-making under conditions of risk and uncertainty.
+-->
 <!-- by Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
