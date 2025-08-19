@@ -1,14 +1,14 @@
- - title: General Information
-   type: map
-   contents:
+# - title: General Information
+#   type: map
+#   contents:
 #     - name: Full Name
 #       value: Cady Hanh Ngo
-     - name: Citizenship
-       value: USA
+#     - name: Citizenship
+#       value: USA
 #     - name: Languages
 #       value: English, Vietnamese
 
- - title: Education
+# - title: Education
    type: time_table
    contents:
      - title: B.A. in Mathematics and Economics, minor in Statistics 
@@ -21,9 +21,9 @@
 #           contents:
 #             - Sub-description 1.
 #             - Sub-description 2.
-     - title: Visiting Honours Student
-       institution: University of Edinburgh
-       year: Jan 2024 - May 2024
+#     - title: Visiting Honours Student
+#       institution: University of Edinburgh
+#       year: Jan 2024 - May 2024
 #       description:
 #         - Description 1.
 #         - Description 2.
