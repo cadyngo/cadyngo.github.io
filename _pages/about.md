@@ -5,7 +5,7 @@ permalink: /
 # subtitle: Social and Decision Neuroscience @ <a href='https://camerergroup.sites.caltech.edu'>Caltech</a>.
 
 profile:
-  align: right
+  align: left
   image: cnpfp.jpeg # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   #more_info: >
