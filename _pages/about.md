@@ -33,7 +33,7 @@ My research interests broadly span behavioral game theory, experimental economic
 
 Contact me at [chngo@caltech.edu](mailto:chngo@caltech.edu)!
 
-**This website is currently being constructed. Please come back in a month's time! :\)**
+**This website is currently under construction. Please come back in a month's time! :\)**
 
 <!-- by Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
