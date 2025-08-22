@@ -9,11 +9,11 @@
 #       value: English, Vietnamese
 #
 # - title: Education
-   type: time_table
-   contents:
-     - title: B.A. in Mathematics and Economics, minor in Statistics 
-       institution: Grinnell College
-       year: Aug 2021 - May 2025
+#   type: time_table
+#   contents:
+#     - title: B.A. in Mathematics and Economics, minor in Statistics 
+#       institution: Grinnell College
+#       year: Aug 2021 - May 2025
 #       description:
 #         - Description 1.
 #         - Description 2.
