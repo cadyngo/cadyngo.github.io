@@ -27,17 +27,22 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a predoctoral researcher in Social and Decision Neuroscience for the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I hold dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
+I am a predoctoral researcher in Social and Decision Neuroscience for the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
 
-My research draws from behavioral game theory, experimental economics, and neuroeconomics. I am particularly interested in decision-making under cognitive limitations, with current projects exploring risk and uncertainty in financial markets, human responses to supernormal stimuli, and level-k reasoning in individuals with autism. Some of my undergraduate applied economics work has been presented at institutions such as the World Bank and the Federal Reserve in Washington, D.C.
+My research draws from behavioral game theory, experimental economics, and neuroeconomics, with a particular interest in decision-making under cognitive limitations. Current projects include exploring risk and uncertainty in financial markets, human responses to supernormal stimuli, and level-k reasoning in individuals with autism.
 
-As my range of projects suggests, I am a strong proponent of interdisciplinary approaches to address social issues and unravel the complexities of the human mind.
+Some of my undergraduate applied economics research -- broadly focused on public health, education policy, and upward mobility -- has been presented at institutions such as the World Bank and the Federal Reserve in Washington, D.C.
+
+As my range of work suggests, I strongly believe in interdisciplinary approaches to addressing social issues and unraveling the complexities of the human mind.
 
 **This website is currently under construction. Please check back in a month. :\)**
 
 **Feel free to contact me at [chngo@caltech.edu](mailto:chngo@caltech.edu) in the meantime!**
 
-<!-- As an undergraduate, I conducted applied social and economic research, studying nutrition-related behavioral risk factors at my alma mater and location-based determinants of upward mobility through a joint program between Harvard’s Opportunity Insights and PREDOC.org. I had the privilege of presenting these works at multiple venues, notably the World Bank and the Federal Reserve in Washington, D.C.
+<!-- 
+I hold dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
+
+As an undergraduate, I conducted applied social and economic research, studying nutrition-related behavioral risk factors at my alma mater and location-based determinants of upward mobility through a joint program between Harvard’s Opportunity Insights and PREDOC.org. I had the privilege of presenting these works at multiple venues, notably the World Bank and the Federal Reserve in Washington, D.C.
 
 I am a proponent of interdisciplinary works
 -->
