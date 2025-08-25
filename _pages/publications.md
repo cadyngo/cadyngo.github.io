@@ -14,7 +14,7 @@ nav_order: 2
 
 Toma, F. M., Spoon, R., Henning, T., **Ngo, C. H.**, Camerer, C. F., & Smith, A. The Psychobiological Predictability of Experimental Asset Bubbles.
 
-[**Poster**](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &#124; [**Slides**](/assets/pdf/RBFC_Oct18.pdf) &#124; [**OSF**](https://osf.io/sndx6/)
+[**Poster**](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [**Slides**](/assets/pdf/RBFC_Oct18.pdf) &nbsp;&#124;&nbsp; [**OSF**](https://osf.io/sndx6/)
 
 <br><br>
 

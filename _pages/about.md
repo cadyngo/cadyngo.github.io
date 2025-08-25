@@ -31,9 +31,9 @@ I am a predoctoral researcher in Social and Decision Neuroscience for the [Camer
 
 My research draws from behavioral game theory, experimental economics, and neuroeconomics, with a particular interest in human decision-making under cognitive limitations. Current projects include exploring risk and uncertainty in financial markets, responses to supernormal stimuli, and level-k reasoning in individuals with autism.
 
-Some of my undergraduate applied economics research -- broadly focused on public health and education policy -- has been presented at the World Bank and the Federal Reserve in Washington, D.C.
+Some of my undergraduate applied economics research -- broadly focused on public health and education policy -- has been presented at the World Bank and the Federal Reserve Board in Washington, D.C.
 
-As my range of work suggests, I am a proponent of interdisciplinary approaches to addressing social issues and unraveling the complexities of the human mind.
+<!-- As my range of work suggests, I am a proponent of interdisciplinary approaches to addressing social issues and unraveling the complexities of the human mind. -->
 
 **This website is currently under construction. Please check back in a month. :\)**
 
