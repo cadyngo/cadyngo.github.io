@@ -403,6 +403,7 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.5rem;
 
   a {
+    color: var(--global-text-color) !important;
     img, svg {
       width: 2rem;
       height: 2rem;
@@ -410,6 +411,9 @@ ul.task-list input[type="checkbox"] {
     }
     i {
       font-size: 2rem;
+    }
+    &:hover {
+      color: var(--global-theme-color) !important;
     }
   }
 }
