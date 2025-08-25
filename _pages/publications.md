@@ -14,6 +14,8 @@ nav_order: 2
 
 Toma, F. M., Spoon, R., Henning, T., **Ngo, C. H.**, Camerer, C. F., & Smith, A. The Psychobiological Predictability of Experimental Asset Bubbles.
 
+[**Poster**](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) | [**Slides**](/assets/pdf/RBFC_Oct18.pdf) | [**OSF**](https://osf.io/sndx6/)
+
 <br><br>
 
 ## **Works in Progress**
@@ -23,9 +25,13 @@ Toma, F. M., Spoon, R., Henning, T., **Ngo, C. H.**, Camerer, C. F., & Smith, A.
 Hu, S., Saito, K., Imai, T., Fujino, J., **Ngo, C. H.**, Camerer, C. F. Disorders of Rationality – Is Autistic
 Systematizing Associated with Economic Consistent Rationality?
 
+[**Prereg**]()
+
 <br>
 
 **Ngo, C. H.** Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.
+
+<!-- [**Poster**](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) | [**Slides**](/assets/pdf/Cady_Ngo_MEA_2025.pdf) -->
 
 <br>
 
