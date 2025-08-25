@@ -395,6 +395,25 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Socials under profile picture (About page)
+.profile-socials {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+
+  a {
+    img, svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-bottom: 0;
+    }
+    i {
+      font-size: 1.5rem;
+    }
+  }
+}
+
 // Social (bottom)
 
 .social {

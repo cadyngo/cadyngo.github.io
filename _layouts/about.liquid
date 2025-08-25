@@ -36,7 +36,9 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% include social.liquid %} {% comment %} move socials to under pfp {% endcomment %}
+          <div class="profile-socials">
+            {% include social.liquid %}
+          </div> {% comment %} move socials to under pfp {% endcomment %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
