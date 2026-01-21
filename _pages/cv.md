@@ -1,11 +1,12 @@
 ---
 layout: cv
-permalink: /cv/
+#permalink: /cv/
+permalink: /assets/pdf/Ngo_Cady_CV.pdf
 title: CV
 nav: true
 nav_order: 5
 cv_pdf: Ngo_Cady_CV.pdf # you can also use external links here
-description: Download my full CV here! # This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+#description: Download my full CV here! # This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
 # toc:
   # sidebar: left
 

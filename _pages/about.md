@@ -29,7 +29,7 @@ latest_posts:
 
 I am a predoctoral researcher in Social and Decision Neuroscience for the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
 
-My research draws from behavioral game theory, experimental economics, and neuroeconomics, with a particular interest in human decision-making under cognitive limitations. Current projects include exploring risk and uncertainty in financial markets, responses to supernormal stimuli, and level-k reasoning in individuals with autism.
+My research draws on behavioral, experimental, and neuroeconomics, with a particular interest in decision-making under risk and uncertainty. Current projects range from studying bubble behavior in financial markets to human responses to supernormal stimuli.
 
 Some of my undergraduate applied economics research -- broadly focused on public health and education policy -- has been presented at the World Bank and the Federal Reserve Board in Washington, D.C.
 
