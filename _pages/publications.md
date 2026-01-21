@@ -22,12 +22,12 @@ Toma, F. M., Spoon, R., Henning, T., **Ngo, C. H.**, Camerer, C. F., & Smith, A.
 
 <br>
 
-Hu, S., Saito, K., Imai, T., Fujino, J., **Ngo, C. H.**, Camerer, C. F. Disorders of Rationality – Is Autistic
+<!-- Hu, S., Saito, K., Imai, T., Fujino, J., **Ngo, C. H.**, Camerer, C. F. Disorders of Rationality – Is Autistic
 Systematizing Associated with Economic Consistent Rationality?
 
-[**OSF**]()
+ [**OSF**]()
 
-<br>
+<br> -->
 
 **Ngo, C. H.** Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.
 
