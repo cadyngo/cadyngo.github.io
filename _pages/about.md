@@ -35,10 +35,6 @@ Some of my undergraduate applied economics research -- broadly focused on public
 
 <!-- As my range of work suggests, I am a proponent of interdisciplinary approaches to addressing social issues and unraveling the complexities of the human mind. -->
 
-**This website is currently under construction. Please check back in a month. :\)**
-
-**Feel free to contact me at [chngo@caltech.edu](mailto:chngo@caltech.edu) in the meantime!**
-
 <!-- 
 I hold dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
 
