@@ -18,17 +18,10 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Download my full CV here!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-misc",
-          title: "Misc",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/misc/";
+            window.location.href = "/assets/pdf/Ngo_Cady_CV.pdf";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
