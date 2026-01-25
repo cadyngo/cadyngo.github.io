@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: left
-  image: cnpfp2.jpeg # prof_pic.jpg
+  image: Ngo_Cady_Headshot.jpeg # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   #more_info: >
   #  <p>555 your office number</p>
