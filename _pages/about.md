@@ -27,11 +27,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a predoctoral researcher in Social and Decision Neuroscience for the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
+I am a predoctoral researcher in Social and Decision Neuroscience with the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
 
-My research draws on behavioral, experimental, and neuroeconomics, with a particular interest in decision-making under risk and uncertainty. Current projects range from studying bubble behavior in financial markets to human responses to supernormal stimuli.
+My research draws from behavioral, experimental, and neuroeconomics. I study decision-making under risk and uncertainty in contexts ranging from financial markets to everyday food choices, using tools such as AI and wearable technologies. Some of my undergraduate applied economics research, which focused on public health and education policy, was presented at the World Bank and the Federal Reserve Board in Washington, D.C.
 
-Some of my undergraduate applied economics research -- broadly focused on public health and education policy -- has been presented at the World Bank and the Federal Reserve Board in Washington, D.C.
+Above all, I aim to understand complex social and behavioral questions in ways that can inform better decisions and policies.
+
+<!-- 
+My research draws from behavioral, experimental, and neuroeconomics. I study how people make decisions under risk and uncertainty -- from financial markets to everyday food choices -- using tools such as AI and wearable technologies. Some of my undergraduate applied economics research -- broadly focused on public health and education policy -- has been presented at the World Bank and the Federal Reserve Board in Washington, D.C.
+
+To that end, I aim to understand complex social and behavioral questions in ways that can inform better decisions and policies.
+
+My research draws from behavioral, experimental, and neuroeconomics. I am particularly interested in decision-making under risk and uncertainty, which I explore in settings ranging from financial markets to food choices, using tools such as AI and wearable technologies.
+-->
 
 <!-- As my range of work suggests, I am a proponent of interdisciplinary approaches to addressing social issues and unraveling the complexities of the human mind. -->
 

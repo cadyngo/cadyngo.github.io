@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-### **Working Papers**
+#### **Working Papers**
 
 <br>
 
@@ -18,7 +18,7 @@ nav_order: 2
 
 <br><br>
 
-### **Works in Progress**
+#### **Works in Progress**
 
 <br>
 
@@ -30,6 +30,8 @@ Systematizing Associated with Economic Consistent Rationality?
 <br> -->
 
 **Ultra-Processed Foods, Supernormalization, and Rational Inattention** (with Colin Camerer)
+
+<br>
 
 **On the Biology of Rational Inattention** (with Wei-Chien Weng, Zhenlin Kang, Joseph Tao-yi Wang, and Colin Camerer)
 
