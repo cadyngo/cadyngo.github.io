@@ -29,6 +29,10 @@ Systematizing Associated with Economic Consistent Rationality?
 
 <br> -->
 
+Kang, Z., Weng, W., **Ngo, C. H.**, Wang, J. T., & Camerer, C. F. On the Biology of Rational Inattention
+
+<br>
+
 **Ngo, C. H.** Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.
 
 <!-- [**Poster**](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) | [**Slides**](/assets/pdf/Cady_Ngo_MEA_2025.pdf) -->
