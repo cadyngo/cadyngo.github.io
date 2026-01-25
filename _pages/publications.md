@@ -8,17 +8,17 @@ nav: true
 nav_order: 2
 ---
 
-## **Working Papers**
+### **Working Papers**
 
 <br>
 
-Toma, F. M., Spoon, R., Henning, T., **Ngo, C. H.**, Camerer, C. F., & Smith, A. The Psychobiological Predictability of Experimental Asset Bubbles.
+**The Psychobiological Predictability of Experimental Asset Bubbles** (with Thomas Henning, Ross Spoon, Filip-Mihai Toma, Colin Camerer, and Alec Smith)
 
 [**Poster**](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [**Slides**](/assets/pdf/RBFC_Oct18.pdf) &nbsp;&#124;&nbsp; [**OSF**](https://osf.io/sndx6/)
 
 <br><br>
 
-## **Works in Progress**
+### **Works in Progress**
 
 <br>
 
@@ -29,21 +29,23 @@ Systematizing Associated with Economic Consistent Rationality?
 
 <br> -->
 
-Kang, Z., Weng, W., **Ngo, C. H.**, Wang, J. T., & Camerer, C. F. On the Biology of Rational Inattention
+**Ultra-Processed Foods, Supernormalization, and Rational Inattention** (with Colin Camerer)
+
+**On the Biology of Rational Inattention** (with Wei-Chien Weng, Zhenlin Kang, Joseph Tao-yi Wang, and Colin Camerer)
 
 <br>
 
-**Ngo, C. H.** Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.
+**Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.**
 
 <!-- [**Poster**](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) | [**Slides**](/assets/pdf/Cady_Ngo_MEA_2025.pdf) -->
 
 <br>
 
-**Ngo, C. H.** Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music.
+**Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music.**
 
 <br>
 
-**Ngo, C. H.** The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession.
+**The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession.**
 
 
 <!-- _pages/publications.md -->
