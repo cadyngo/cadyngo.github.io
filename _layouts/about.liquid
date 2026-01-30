@@ -36,14 +36,15 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-          <div class="profile-socials">
-            {% include social.liquid %}
-          </div>
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
+
+    <div class="profile-socials-centered">
+      {% include social.liquid %}
+    </div>
 
     <div class="clearfix">{{ content }}</div>
 

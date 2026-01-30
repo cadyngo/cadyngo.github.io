@@ -394,13 +394,14 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-hover-color);
   }
 }
-// Socials under profile picture (About page)
-/*
-.profile-socials {
+// Socials centered on page (About page)
+.profile-socials-centered {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   justify-content: center;
-  margin-top: 0.5rem;
+  margin: 2rem 0;
+  clear: both;
+  width: 100%;
 
   a {
     color: var(--global-text-color) !important;
@@ -417,7 +418,6 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
-*/
 
 // Social (bottom)
 
