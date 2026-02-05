@@ -14,7 +14,7 @@ nav_order: 2
 
 **The Psychobiological Predictability of Experimental Asset Bubbles** (with Thomas Henning, Ross Spoon, Filip-Mihai Toma, Colin Camerer, and Alec Smith)
 
-[**Poster**](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [**Slides**](/assets/pdf/RBFC_Oct18.pdf) &nbsp;&#124;&nbsp; [**OSF**](https://osf.io/sndx6/)
+[**Poster**](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [**Slides**](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) &nbsp;&#124;&nbsp; [**OSF**](https://osf.io/sndx6/)
 
 <br><br>
 
