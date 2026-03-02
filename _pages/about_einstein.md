@@ -1,3 +1,0 @@
-I am a predoctoral researcher in Social and Decision Neuroscience for the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I hold dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
-
-My research interests broadly span behavioral game theory, experimental economics, and neuroeconomics. I am particularly focused on understanding decision-making under conditions of risk and uncertainty.
