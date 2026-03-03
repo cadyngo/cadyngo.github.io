@@ -8,31 +8,31 @@ nav: true
 nav_order: 2
 ---
 
-#### **Working Papers**
+### <u><strong>Working Papers</strong></u>
 
 <br>
 
 ##### **The Psychobiological Predictability of Experimental Asset Bubbles**
 (with Thomas Henning, Ross Spoon, Filip-Mihai Toma, Colin Camerer, and Alec Smith)
 
-[**Poster**](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [**Slides**](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) &nbsp;&#124;&nbsp; [**OSF**](https://osf.io/rg4hb/overview)
+[Poster](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) &nbsp;&#124;&nbsp; [OSF](https://osf.io/rg4hb/overview)
 
 <br>
 
 ##### **Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.**
 
-[**Poster**](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) &nbsp;&#124;&nbsp; [**Slides**](/assets/pdf/Cady_Ngo_MEA_2025.pdf) 
+[Poster](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Cady_Ngo_MEA_2025.pdf) 
 
 <br><br>
 
-#### **Works in Progress**
+### <u><strong>Works in Progress</strong></u>
 
 <br>
 
 ##### **Neural Mechanisms of Curiosity in Risky Decision-Making: An fMRI Investigation**
 (with Bo Zhang, Emily Towner, and Dean Mobbs)
 
-[**Github**](https://github.com/Curiosity-Fear-Decision-Making/Curiosity-Fear-Decision-Making-Task)
+[Github](https://github.com/Curiosity-Fear-Decision-Making/Curiosity-Fear-Decision-Making-Task)
 
 <br>
 
