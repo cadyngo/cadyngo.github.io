@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-#### <u><strong>Working Papers</strong></u>
+### <u><strong>Working Papers</strong></u>
 
 <br>
 
@@ -25,7 +25,7 @@ nav_order: 2
 
 <br><br>
 
-#### <u><strong>Works in Progress</strong></u>
+### <u><strong>Works in Progress</strong></u>
 
 <br>
 
