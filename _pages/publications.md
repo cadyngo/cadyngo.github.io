@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-### <u><strong>Working Papers</strong></u>
+#### <u><strong>Working Papers</strong></u>
 
 <br>
 
@@ -21,11 +21,11 @@ nav_order: 2
 
 ##### **Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.**
 
-[Poster](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Cady_Ngo_MEA_2025.pdf) 
+[Poster](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Cady_Ngo_MEA_2025.pdf)
 
 <br><br>
 
-### <u><strong>Works in Progress</strong></u>
+#### <u><strong>Works in Progress</strong></u>
 
 <br>
 
@@ -65,7 +65,5 @@ nav_order: 2
 <!-- {% include bib_search.liquid %} -->
 
 <div class="publications">
-
 {% bibliography %}
-
 </div>
