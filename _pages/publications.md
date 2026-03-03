@@ -13,6 +13,7 @@ nav_order: 2
 <br>
 
 ##### **The Psychobiological Predictability of Experimental Asset Bubbles**
+
 (with Thomas Henning, Ross Spoon, Filip-Mihai Toma, Colin Camerer, and Alec Smith)
 
 [Poster](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) &nbsp;&#124;&nbsp; [OSF](https://osf.io/rg4hb/overview)
@@ -30,6 +31,7 @@ nav_order: 2
 <br>
 
 ##### **Neural Mechanisms of Curiosity in Risky Decision-Making: An fMRI Investigation**
+
 (with Bo Zhang, Emily Towner, and Dean Mobbs)
 
 [Github](https://github.com/Curiosity-Fear-Decision-Making/Curiosity-Fear-Decision-Making-Task)
@@ -37,16 +39,19 @@ nav_order: 2
 <br>
 
 ##### **Large Language Models and Experimental Asset Bubbles**
+
 (with Benjamin Manning and Chris Avery)
 
 <br>
 
 ##### **Ultra-Processed Foods, Supernormalization, and Rational Inattention**
+
 (with Colin Camerer)
 
 <br>
 
 ##### **On the Biology of Rational Inattention**
+
 (with Wei-Chien Weng, Zhenlin Kang, Joseph Tao-yi Wang, and Colin Camerer)
 
 <br>
@@ -56,7 +61,6 @@ nav_order: 2
 <br>
 
 ##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession.**
-
 
 <!-- _pages/publications.md -->
 
