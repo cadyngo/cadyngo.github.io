@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+header_title: "Hi, I'm <strong><span style='color: var(--global-theme-color)'>Cady</span></strong>!"
 permalink: /
 # subtitle: Social and Decision Neuroscience @ <a href='https://camerergroup.sites.caltech.edu'>Caltech</a>.
 
@@ -32,6 +33,8 @@ I am a **[Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/peo
 My research draws from behavioral, experimental, and neuroeconomics. I study decision-making under risk and uncertainty in contexts ranging from financial markets to everyday food choices, using tools such as LLMs, fMRI, and wearable technologies. Some of my undergraduate applied economics research, which focused on public health and education policy, was presented at the World Bank and the Federal Reserve Board in Washington, D.C.
 
 Perpetually curious about what drives human behavior, I am ultimately motivated to understand complex social and behavioral questions in ways that can inform better decisions and policies.
+
+<em style="color: var(--global-text-color-light); font-size: 0.75em;">(My name is pronounced like 'Katie' -- my parents just didn't know how to spell it!)</em>
 
 <!-- 
 
