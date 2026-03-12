@@ -20,7 +20,7 @@ nav_order: 2
 
 <br>
 
-##### **Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism.**
+##### **Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism**
 
 [Poster](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Cady_Ngo_MEA_2025.pdf)
 

@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: left
-  image: Ngo_Cady_Headshot_Cropped.jpeg # prof_pic.jpg
+  image: Ngo_Cady_Headshot_Pub.jpg # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   #more_info: >
   #  <p>555 your office number</p>
@@ -27,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a [Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/people/cady-ngo) in Social and Decision Neuroscience with the [Camerer Group at Caltech](https://camerergroup.sites.caltech.edu). I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
+I am a **[Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/people/cady-ngo)** in Social and Decision Neuroscience with the **[Camerer Group at Caltech](https://camerergroup.sites.caltech.edu)**. I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
 
 My research draws from behavioral, experimental, and neuroeconomics. I study decision-making under risk and uncertainty in contexts ranging from financial markets to everyday food choices, using tools such as LLMs, fMRI, and wearable technologies. Some of my undergraduate applied economics research, which focused on public health and education policy, was presented at the World Bank and the Federal Reserve Board in Washington, D.C.
 
-Above all, I aim to understand complex social and behavioral questions in ways that can inform better decisions and policies.
+Perpetually curious about what drives human behavior, I am ultimately motivated to understand complex social and behavioral questions in ways that can inform better decisions and policies.
 
 <!-- 
 
