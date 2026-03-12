@@ -75,6 +75,9 @@ layout: default
     <div class="profile-socials-centered">
       {% include social.liquid %}
     </div>
+    {% if page.pronunciation_note %}
+      <p style="font-size: 0.75em; color: var(--global-text-color-light); text-align: center; margin-top: -1rem;">{{ page.pronunciation_note }}</p>
+    {% endif %}
 
 {% comment %}
     <!-- Social -->
