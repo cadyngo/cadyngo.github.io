@@ -16,13 +16,17 @@ nav_order: 2
 
 (with Thomas Henning, Ross Spoon, Filip-Mihai Toma, Colin Camerer, and Alec Smith)
 
-[Poster](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) &nbsp;&#124;&nbsp; [OSF](https://osf.io/rg4hb/overview)
+[Poster](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) &nbsp;&#124;&nbsp; [OSF](https://osf.io/rg4hb/overview) &nbsp;&#124;&nbsp;
+[Paper](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
+
 
 <br>
 
 ##### **Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism**
 
-[Poster](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Cady_Ngo_MEA_2025.pdf)
+[Poster](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) &nbsp;&#124;&nbsp; [Slides](/assets/pdf/Cady_Ngo_MEA_2025.pdf) &nbsp;&#124;&nbsp;
+[Paper](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
+
 
 <br><br>
 
@@ -54,13 +58,16 @@ nav_order: 2
 
 (with Wei-Chien Weng, Zhenlin Kang, Joseph Tao-yi Wang, and Colin Camerer)
 
+[Slides](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
+
+
 <br>
 
-##### **Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music.**
+##### **Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music**
 
 <br>
 
-##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession.**
+##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession**
 
 <!-- _pages/publications.md -->
 
