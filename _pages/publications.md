@@ -60,14 +60,13 @@ nav_order: 2
 
 [Slides](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
 
-
 <br>
 
 ##### **Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music**
 
-<br>
+<!-- <br>
 
-##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession**
+##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession** -->
 
 <!-- _pages/publications.md -->
 
