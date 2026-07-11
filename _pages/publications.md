@@ -68,12 +68,6 @@ nav_order: 2
 
 ##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession** -->
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-<!-- {% include bib_search.liquid %} -->
-
 <div class="publications">
 {% bibliography %}
 </div>
