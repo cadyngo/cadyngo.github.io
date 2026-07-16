@@ -12,7 +12,7 @@ nav_order: 2
 
 ### <u><strong>Working Papers</strong></u>
 
-<br>
+<div class="paper" markdown="1">
 
 ##### **The Psychobiological Predictability of Experimental Asset Bubbles**
 
@@ -20,19 +20,19 @@ nav_order: 2
 
 [Poster](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) [Slides](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) [OSF](https://osf.io/rg4hb/overview) [Paper](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
 
+</div>
 
-<br>
+<div class="paper" markdown="1">
 
 ##### **Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism**
 
 [Poster](/assets/pdf/Ngo_Cady_Poster_UMP.pdf) [Slides](/assets/pdf/Cady_Ngo_MEA_2025.pdf) [Paper](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
 
-
-<br><br>
+</div>
 
 ### <u><strong>Works in Progress</strong></u>
 
-<br>
+<div class="paper" markdown="1">
 
 ##### **Neural Mechanisms of Curiosity in Risky Decision-Making: An fMRI Investigation**
 
@@ -40,19 +40,25 @@ nav_order: 2
 
 [Github](https://github.com/Curiosity-Fear-Decision-Making/Curiosity-Fear-Decision-Making-Task)
 
-<br>
+</div>
+
+<div class="paper" markdown="1">
 
 ##### **Large Language Models and Experimental Asset Bubbles**
 
 (with Benjamin Manning and Chris Avery)
 
-<br>
+</div>
+
+<div class="paper" markdown="1">
 
 ##### **Ultra-Processed Foods, Supernormalization, and Rational Inattention**
 
 (with Colin Camerer)
 
-<br>
+</div>
+
+<div class="paper" markdown="1">
 
 ##### **On the Biology of Rational Inattention**
 
@@ -60,9 +66,13 @@ nav_order: 2
 
 [Slides](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
 
-<br>
+</div>
+
+<div class="paper" markdown="1">
 
 ##### **Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music**
+
+</div>
 
 <!-- <br>
 
