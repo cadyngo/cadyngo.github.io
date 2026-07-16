@@ -14,7 +14,7 @@ profile:
   #  <p>123 your address street</p>
   #  <p>Your City, State 12345</p>
 
-pronunciation_note: "My name is pronounced like 'Katie', just spelled a bit weirdly!"
+# pronunciation_note: "My name is pronounced like 'Katie', just spelled a bit weirdly!"
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -29,8 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a **[Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/people/cady-ngo)** in Social and Decision Neuroscience with the **[Camerer Group at Caltech](https://camerergroup.sites.caltech.edu)**. I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
+I am a **[Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/people/cady-ngo)** in Social and Decision Neuroscience with the **[Camerer Group at Caltech](https://camerergroup.sites.caltech.edu)**. I recently finished dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
 
-My research draws from behavioral, experimental, and neuroeconomics. I study decision-making under risk and uncertainty in contexts ranging from financial markets to everyday food choices, using basically any tools I can get my hands on (e.g., LLMs, fMRI, eye-tracking, and wearable technologies). My current fixation is persona construction of LLM agents and what would make them credible stand-ins for human subjects, in contrast to my undergraduate applied microeconomics research on public health and education policy (which is still very much of interest to me).
+I work across behavioral, experimental, and neuroeconomics to understand decision-making under risk and uncertainty — from financial markets to everyday food choices — and use tools such as LLMs, fMRI, and wearable technologies to study this.
 
 Perhaps a natural consequence of my liberal arts background is an inability to stick to one discipline — but underlying it all is a desire to understand social and behavioral questions in ways that can better inform decisions and policies.
