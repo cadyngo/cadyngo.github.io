@@ -4,7 +4,7 @@ permalink: /research/ #/publications/
 title: Research
 hide_title: true
 description:
-nav: false
+nav: true
 nav_order: 2
 ---
 
