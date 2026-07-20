@@ -23,6 +23,7 @@ layout: default
   </header>
 
   <article>
+    <div class="about-intro">
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -46,7 +47,17 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <div class="about-body">
+        <div class="clearfix">{{ content }}</div>
+
+        <div class="hero-contact">
+          <a href="mailto:chngo@caltech.edu"><i class="fa-solid fa-envelope"></i>chngo@caltech.edu</a>
+          <a href="https://github.com/cadyngo" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/cadyngo" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://osf.io/hxz9q" target="_blank" rel="noopener noreferrer" title="OSF" aria-label="OSF"><i class="ai ai-osf"></i></a>
+        </div>
+      </div>
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -72,12 +83,6 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <div class="hero-contact">
-      <a href="mailto:chngo@caltech.edu"><i class="fa-solid fa-envelope"></i>chngo@caltech.edu</a>
-      <a href="https://github.com/cadyngo" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/cadyngo" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-      <a href="https://osf.io/hxz9q" target="_blank" rel="noopener noreferrer" title="OSF" aria-label="OSF"><i class="ai ai-osf"></i></a>
-    </div>
     {% if page.pronunciation_note %}
       <p style="font-size: 0.75em; color: var(--global-text-color-light); text-align: center; margin-top: -1rem;">{{ page.pronunciation_note }}</p>
     {% endif %}

@@ -20,9 +20,35 @@ body {
   }
 }
 
+// Redesign: two-column hero (portrait | bio + contact) to match the mockup
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .about-intro {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: clamp(1.5rem, 4vw, 2.25rem);
+  }
+
+  .about-intro .profile {
+    flex: 0 0 clamp(200px, 32%, 280px);
+    width: auto;
+    max-width: none;
+    margin: 0;
+  }
+
+  .about-intro .about-body {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+}
+
 // Redesign: hero contact row (left-aligned, monospace "data" voice)
 .hero-contact {
-  clear: both;
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem 1.6rem;
