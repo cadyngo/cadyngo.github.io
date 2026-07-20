@@ -10,7 +10,7 @@ nav_order: 2
 
 <div class="research" markdown="1">
 
-### <u><strong>Working Papers</strong></u>
+### <strong>Working Papers</strong>
 
 <div class="paper" markdown="1">
 
@@ -30,7 +30,7 @@ nav_order: 2
 
 </div>
 
-### <u><strong>Works in Progress</strong></u>
+### <strong>Works in Progress</strong>
 
 <div class="paper" markdown="1">
 

@@ -254,7 +254,7 @@ let transTheme = () => {
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light") {
-    themeSetting = "light"; // or "dark" if you want dark as default
+    themeSetting = "dark"; // default to dark mode
   }
   return themeSetting;
 };

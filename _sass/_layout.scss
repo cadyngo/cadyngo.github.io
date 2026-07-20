@@ -47,37 +47,49 @@ body {
   }
 }
 
-// Redesign: hero contact row (left-aligned, monospace "data" voice)
+// Redesign: hero contact row — icon-only boxes matching the research cards
 .hero-contact {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem 1.6rem;
+  gap: 0.6rem;
   margin-top: 2rem;
-  padding-top: 1.2rem;
+  padding-top: 1.4rem;
   border-top: 1px solid var(--global-divider-color);
-  font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, monospace;
-  font-size: 0.78rem;
-  letter-spacing: 0.02em;
 
   a {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    background: var(--global-card-bg-color);
     color: var(--global-text-color-light);
     text-decoration: none;
 
     &:hover {
+      border-color: var(--global-theme-color);
       color: var(--global-theme-color);
     }
 
     i {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 }
 
 // Redesign: research links as monospace pills
 .research {
+  h3 {
+    margin-top: 3rem;
+    margin-bottom: 1.1rem;
+
+    &:first-of-type {
+      margin-top: 0.5rem;
+    }
+  }
+
   a {
     display: inline-block;
     font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, monospace;
