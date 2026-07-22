@@ -29,8 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a **[Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/people/cady-ngo)** in Social and Decision Neuroscience with the **[Camerer Group at Caltech](https://camerergroup.sites.caltech.edu)**. I recently finished dual BAs in Economics and Mathematics, with a concentration in Statistics, from Grinnell College.
+I am a **[Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/people/cady-ngo)** in Social and Decision Neuroscience with the **[Camerer Group at Caltech](https://camerergroup.sites.caltech.edu)**. I recently graduated from Grinnell College with dual BAs in Economics and Mathematics, with a concentration in Statistics.
 
-I work across behavioral, experimental, and neuroeconomics to understand decision-making under risk and uncertainty — from financial markets to everyday food choices — and use tools such as LLMs, fMRI, and wearable technologies to study this.
+I work across behavioral, experimental, and neuroeconomics to understand decision-making under risk and uncertainty — from financial markets to everyday food choices — using tools such as LLMs, fMRI, eye-tracking, and wearable technologies.
 
-Perhaps a natural consequence of my liberal arts background is an inability to stick to one discipline — but underlying it all is a desire to understand social and behavioral questions in ways that can better inform decisions and policies.
+Perhaps a natural consequence of my liberal arts background is an inability to stick to one discipline, but underlying it all is a desire to understand social and behavioral questions in ways that can better inform decisions and policies.

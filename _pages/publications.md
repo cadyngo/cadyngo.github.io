@@ -46,7 +46,7 @@ nav_order: 2
 
 ##### **Large Language Models and Experimental Asset Bubbles**
 
-(with Benjamin Manning and Chris Avery)
+(with Benjamin Manning, Chris Avery, and Colin Camerer)
 
 </div>
 
@@ -67,18 +67,20 @@ nav_order: 2
 [Slides](mailto:chngo@caltech.edu) *<span style="color: var(--global-text-color-light); font-size: 0.75em;">(upon request)</span>*
 
 </div>
-
+<!--
+<br>
 <div class="paper" markdown="1">
 
 ##### **Why It Sounds Right: A Game-Theoretic and Statistical Learning Approach to Western Classical Music**
 
 </div>
 
-<!-- <br>
+<br>
 
-##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession** -->
+##### **The Impact of International Property Rights on Foreign Movie Exports: Evidence from Vietnam’s WTO Accession**
 
 </div>
+-->
 
 <div class="publications">
 {% bibliography %}
