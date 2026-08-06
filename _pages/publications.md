@@ -34,19 +34,19 @@ nav_order: 2
 
 <div class="paper" markdown="1">
 
-##### **Neural Mechanisms of Curiosity in Risky Decision-Making: An fMRI Investigation**
+##### **Large Language Models and Experimental Asset Bubbles**
 
-(with Bo Zhang, Emily Towner, and Dean Mobbs)
-
-[Github](https://github.com/Curiosity-Fear-Decision-Making/Curiosity-Fear-Decision-Making-Task)
+(with Benjamin Manning, Christopher Avery, and Colin Camerer)
 
 </div>
 
 <div class="paper" markdown="1">
 
-##### **Large Language Models and Experimental Asset Bubbles**
+##### **Neural Mechanisms of Curiosity in Risky Decision-Making: An fMRI Investigation**
 
-(with Benjamin Manning, Chris Avery, and Colin Camerer)
+(with Bo Zhang, Emily Towner, and Dean Mobbs)
+
+[Github](https://github.com/Curiosity-Fear-Decision-Making/Curiosity-Fear-Decision-Making-Task)
 
 </div>
 
