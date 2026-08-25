@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-header_title: "Hi, I'm <span style='color: var(--global-theme-color); font-weight: 700'>Cady</span>!"
+header_title: "Hi, I'm <span class='pronounce-tip' tabindex='0' style='color: var(--global-theme-color); font-weight: 700'>Cady<span class='pronounce-tip__bubble'>My name is pronounced like &ldquo;Katie,&rdquo; just spelled a bit weirdly!</span></span>!"
 permalink: /
 # subtitle: Social and Decision Neuroscience @ <a href='https://camerergroup.sites.caltech.edu'>Caltech</a>.
 
