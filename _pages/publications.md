@@ -30,7 +30,7 @@ nav_order: 2
 
 </div>
 
-### <strong>Works in Progress</strong>
+### <strong>Selected Works in Progress</strong>
 
 <div class="paper" markdown="1">
 
