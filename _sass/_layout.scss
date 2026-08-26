@@ -95,10 +95,10 @@ body {
 
   a {
     display: inline-block;
-    font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, monospace;
-    font-size: 0.7rem;
+    font-family: inherit;
+    font-size: 0.72rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     padding: 3px 11px;
     margin: 0 6px 8px 0;
     border: 1px solid var(--global-divider-color);
