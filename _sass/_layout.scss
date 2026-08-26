@@ -93,12 +93,11 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.07em;
     margin: 0 1rem 0.3rem 0;
-    color: var(--global-text-color-light);
+    color: var(--global-theme-color);
     text-decoration: none;
 
     &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
@@ -135,7 +134,7 @@ body {
 .pronounce-tip__bubble {
   position: absolute;
   bottom: 100%;
-  left: 0;
+  left: 50%;
   margin-bottom: 0.3rem;
   z-index: 20;
   width: max-content;
@@ -149,7 +148,7 @@ body {
   white-space: nowrap;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(4px);
+  transform: translate(-50%, 4px);
   transition:
     opacity 0.15s ease,
     transform 0.15s ease;
@@ -160,7 +159,7 @@ body {
 .pronounce-tip:focus .pronounce-tip__bubble {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translate(-50%, 0);
 }
 
 body.fixed-top-nav {
