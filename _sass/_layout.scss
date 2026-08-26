@@ -66,7 +66,7 @@ body {
     }
 
     i {
-      font-size: 1.35rem;
+      font-size: 1.45rem;
     }
   }
 }
@@ -89,18 +89,14 @@ body {
   a {
     display: inline-block;
     font-family: inherit;
-    font-size: 0.68rem;
+    font-size: 0.78rem;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    padding: 3px 11px;
-    margin: 0 6px 8px 0;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
+    letter-spacing: 0.07em;
+    margin: 0 1rem 0.3rem 0;
     color: var(--global-text-color-light);
     text-decoration: none;
 
     &:hover {
-      border-color: var(--global-theme-color);
       color: var(--global-theme-color);
       text-decoration: none;
     }
@@ -138,9 +134,9 @@ body {
 
 .pronounce-tip__bubble {
   position: absolute;
-  top: 50%;
-  left: 100%;
-  margin-left: 0.7rem;
+  bottom: 100%;
+  left: 0;
+  margin-bottom: 0.3rem;
   z-index: 20;
   width: max-content;
   color: var(--global-text-color-light);
@@ -153,7 +149,7 @@ body {
   white-space: nowrap;
   opacity: 0;
   visibility: hidden;
-  transform: translate(-6px, -50%);
+  transform: translateY(4px);
   transition:
     opacity 0.15s ease,
     transform 0.15s ease;
@@ -164,7 +160,7 @@ body {
 .pronounce-tip:focus .pronounce-tip__bubble {
   opacity: 1;
   visibility: visible;
-  transform: translate(0, -50%);
+  transform: translateY(0);
 }
 
 body.fixed-top-nav {
