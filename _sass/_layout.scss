@@ -140,14 +140,10 @@ body {
   position: absolute;
   top: 50%;
   left: 100%;
-  margin-left: 1.25rem;
+  margin-left: 0.7rem;
   z-index: 20;
   width: max-content;
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  background: var(--global-theme-color);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-  color: var(--global-bg-color);
+  color: var(--global-text-color-light);
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
