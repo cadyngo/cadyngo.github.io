@@ -83,7 +83,7 @@ body {
   h3 {
     margin-top: 2.5rem;
     padding-top: 2.5rem;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.7rem;
     border-top: 1px solid var(--global-divider-color);
 
     &:first-of-type {
@@ -135,13 +135,16 @@ body {
 // Redesign: pronunciation tooltip on the hero name
 .pronounce-tip {
   position: relative;
+  display: inline-block;
+  vertical-align: baseline;
   cursor: help;
   outline: none;
 }
 
 .pronounce-tip__bubble {
   position: absolute;
-  top: calc(100% + 0.5rem);
+  top: 100%;
+  margin-top: 0.5rem;
   left: 0;
   z-index: 20;
   width: max-content;
