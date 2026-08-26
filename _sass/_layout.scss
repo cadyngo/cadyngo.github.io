@@ -124,6 +124,8 @@ body {
 
     p {
       margin: 0 0 0.55rem;
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
 
       &:last-child {
         margin-bottom: 0;
@@ -137,15 +139,15 @@ body {
   position: relative;
   display: inline-block;
   vertical-align: baseline;
-  cursor: help;
+  cursor: default;
   outline: none;
 }
 
 .pronounce-tip__bubble {
   position: absolute;
-  top: 100%;
-  margin-top: 0.5rem;
-  left: 0;
+  top: 50%;
+  left: 100%;
+  margin-left: 1.5rem;
   z-index: 20;
   width: max-content;
   max-width: 15rem;
@@ -164,7 +166,7 @@ body {
   white-space: normal;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-4px);
+  transform: translate(-6px, -50%);
   transition:
     opacity 0.15s ease,
     transform 0.15s ease;
@@ -175,7 +177,7 @@ body {
 .pronounce-tip:focus .pronounce-tip__bubble {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translate(0, -50%);
 }
 
 body.fixed-top-nav {
