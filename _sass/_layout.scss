@@ -147,10 +147,9 @@ body {
   position: absolute;
   top: 50%;
   left: 100%;
-  margin-left: 1.5rem;
+  margin-left: 1.25rem;
   z-index: 20;
   width: max-content;
-  max-width: 15rem;
   padding: 0.5rem 0.7rem;
   border-radius: 8px;
   background: var(--global-card-bg-color);
@@ -163,7 +162,7 @@ body {
   font-style: normal;
   line-height: 1.4;
   letter-spacing: normal;
-  white-space: normal;
+  white-space: nowrap;
   opacity: 0;
   visibility: hidden;
   transform: translate(-6px, -50%);
@@ -171,6 +170,27 @@ body {
     opacity 0.15s ease,
     transform 0.15s ease;
   pointer-events: none;
+}
+
+// speech-bubble tail pointing back toward the name
+.pronounce-tip__bubble::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -9px;
+  border: 9px solid transparent;
+  border-right-color: var(--global-divider-color);
+}
+
+.pronounce-tip__bubble::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -8px;
+  border: 8px solid transparent;
+  border-right-color: var(--global-card-bg-color);
 }
 
 .pronounce-tip:hover .pronounce-tip__bubble,
