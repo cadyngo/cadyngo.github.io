@@ -98,11 +98,11 @@ body {
   .about-intro {
     flex-direction: row;
     align-items: flex-start;
-    gap: clamp(1.75rem, 4.5vw, 2.75rem);
+    gap: clamp(1.5rem, 4vw, 2.25rem);
   }
 
   .about-intro .profile {
-    flex: 0 0 clamp(260px, 37%, 360px);
+    flex: 0 0 clamp(260px, 37%, 355px);
     width: auto;
     max-width: none;
     margin: 0;
@@ -116,7 +116,7 @@ body {
 
 .about-body p {
   font-size: 1.22rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.5rem;
 }
 
 // Redesign: hero contact row — icon-only boxes matching the research cards
@@ -124,7 +124,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1.35rem;
-  margin-top: 2.2rem;
+  margin-top: 0rem;
 
   a {
     display: inline-flex;
@@ -253,7 +253,7 @@ body {
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
   line-height: 1.4;
   letter-spacing: normal;
   white-space: nowrap;
