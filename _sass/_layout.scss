@@ -84,7 +84,7 @@ body {
 }
 
 .about-title {
-  font-size: 2.75rem;
+  font-size: 3.15rem;
 }
 
 // Redesign: two-column hero (portrait | bio + contact) to match the mockup
@@ -94,15 +94,15 @@ body {
   gap: 1.5rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .about-intro {
     flex-direction: row;
     align-items: flex-start;
-    gap: clamp(1.5rem, 4vw, 2.25rem);
+    gap: clamp(1.75rem, 4.5vw, 2.75rem);
   }
 
   .about-intro .profile {
-    flex: 0 0 clamp(230px, 35%, 320px);
+    flex: 0 0 clamp(260px, 37%, 360px);
     width: auto;
     max-width: none;
     margin: 0;
@@ -115,7 +115,8 @@ body {
 }
 
 .about-body p {
-  font-size: 1.08rem;
+  font-size: 1.22rem;
+  margin-bottom: 1.6rem;
 }
 
 // Redesign: hero contact row — icon-only boxes matching the research cards
@@ -123,7 +124,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1.35rem;
-  margin-top: 2.25rem;
+  margin-top: 2.2rem;
 
   a {
     display: inline-flex;
@@ -137,7 +138,7 @@ body {
     }
 
     i {
-      font-size: 1.8rem;
+      font-size: 2.05rem;
     }
   }
 }
@@ -157,7 +158,8 @@ body {
     }
   }
 
-  a {
+  a,
+  .abstract-toggle-label {
     display: inline-block;
     font-family: inherit;
     font-size: 0.78rem;
@@ -170,6 +172,35 @@ body {
     &:hover {
       text-decoration: underline;
     }
+  }
+
+  .abstract-toggle-label {
+    cursor: pointer;
+  }
+
+  a:has(+ .upon-request-mark) {
+    margin-right: 0;
+  }
+
+  .upon-request-mark {
+    color: var(--global-theme-color);
+    font-size: 0.75em;
+  }
+
+  .abstract-toggle-input {
+    display: none;
+  }
+
+  .abstract-text {
+    display: none;
+    margin: 0.2rem 0 0.9rem;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--global-text-color-light);
+  }
+
+  .paper:has(.abstract-toggle-input:checked) .abstract-text {
+    display: block;
   }
 
   .paper {
@@ -193,6 +224,15 @@ body {
   }
 }
 
+.upon-request-footnote {
+  margin-top: 1.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--global-theme-color);
+}
+
 // Redesign: pronunciation tooltip on the hero name
 .pronounce-tip {
   position: relative;
@@ -209,9 +249,9 @@ body {
   margin-bottom: 0.3rem;
   z-index: 20;
   width: max-content;
-  color: var(--global-text-color-light);
+  color: var(--global-theme-color);
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
   line-height: 1.4;
