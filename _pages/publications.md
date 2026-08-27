@@ -14,7 +14,7 @@ nav_order: 2
 
 <div class="paper" markdown="1">
 
-##### **The Psychobiological Predictability of Experimental Asset Bubbles**
+##### **Skin in the Game: Electrodermal Arousal, Expectations, and Bubbles in Experimental Asset Markets**
 
 (with Thomas Henning, Ross Spoon, Filip-Mihai Toma, Colin Camerer, and Alec Smith)
 
@@ -34,7 +34,7 @@ nav_order: 2
 
 <div class="paper" markdown="1">
 
-##### **Large Language Models and Experimental Asset Bubbles**
+##### **Persona Construction for Large Language Model Agents in Experimental Asset Markets**
 
 (with Benjamin Manning, Christopher Avery, and Colin Camerer)
 

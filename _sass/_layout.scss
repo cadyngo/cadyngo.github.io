@@ -2,12 +2,16 @@
  * Content
  ******************************************************************************/
 
+html {
+  min-height: 100%;
+  background-color: var(--global-bg-color);
+}
+
 body {
+  min-height: 100vh;
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-color: var(--global-bg-color);
-  background-image: radial-gradient(var(--global-bg-pattern-color) 1.5px, transparent 1.6px);
-  background-size: 20px 20px;
+  background-color: transparent;
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
 
   h1,
@@ -22,6 +26,63 @@ body {
   }
 }
 
+// Faint, minimalist all-over pattern of tiny slowly-spinning spirals
+.bg-swirl {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    color: var(--global-text-color-light);
+    opacity: var(--global-bg-swirl-opacity);
+  }
+
+  use {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1;
+    stroke-linecap: round;
+  }
+
+  &__cw,
+  &__ccw {
+    transform-origin: 0 0;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  &__cw {
+    animation-name: bg-swirl-spin-cw;
+  }
+
+  &__ccw {
+    animation-name: bg-swirl-spin-ccw;
+  }
+}
+
+@keyframes bg-swirl-spin-cw {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bg-swirl-spin-ccw {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-swirl__cw,
+  .bg-swirl__ccw {
+    animation: none;
+  }
+}
+
 .about-title {
   font-size: 2.75rem;
 }
@@ -33,10 +94,10 @@ body {
   gap: 1.5rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 900px) {
   .about-intro {
     flex-direction: row;
-    align-items: stretch;
+    align-items: flex-start;
     gap: clamp(1.5rem, 4vw, 2.25rem);
   }
 
@@ -50,9 +111,6 @@ body {
   .about-intro .about-body {
     flex: 1 1 0;
     min-width: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
 }
 
