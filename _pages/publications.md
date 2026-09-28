@@ -30,6 +30,22 @@ We examine the extent to which price forecasts, emotional arousal, and risk pref
 
 <div class="paper" markdown="1">
 
+<input type="checkbox" id="abstract-persona" class="abstract-toggle-input">
+
+##### **Persona Construction for Large Language Model Agents in Experimental Asset Markets**
+
+(with Benjamin Manning, Christopher Avery, and Colin Camerer)
+
+<label for="abstract-persona" class="abstract-toggle-label">Abstract</label> [Paper](https://openreview.net/pdf?id=kdqza1EOLK)
+
+<div class="abstract-text" markdown="1">
+Despite many theories and much data, there is still no consensus on why bubbles form. Laboratory markets have narrowed the question, but they are slow and costly enough to bound how many designs can be run, and so limit how much of such a complex system we can study. Markets populated by language model (LLM) agents are not so bounded. Still, an agent has no disposition until it is given one. In our paper, we propose a method for constructing 'personas' for traders in experimental asset markets: (1) from the archetypes financial theory already identifies, and (2) by letting an optimizer evolve them against behavioral coefficients estimated from individual human subjects. To judge whether those personas look human we use timing. Across 247 constant fundamental value laboratory sessions from 11 studies, the period at which a session's price peaks is close to proportional to the length of the session. Running every combination of our six archetypes, one — noise traders alongside rational arbitrageurs — comes closest to the human benchmark on both timing and mispricing, while the evolved personas land near the benchmark without having been shown it. Combined, this paper acts as a starting point for better understanding bubble dynamics.
+</div>
+
+</div>
+
+<div class="paper" markdown="1">
+
 <input type="checkbox" id="abstract-feeding" class="abstract-toggle-input">
 
 ##### **Feeding Attendance: The Impact of California’s Universal Meals Program on Public School Absenteeism**
@@ -43,22 +59,6 @@ This paper investigates the effects of California's Universal Meals Program (UMP
 </div>
 
 ### <strong>Selected Works in Progress</strong>
-
-<div class="paper" markdown="1">
-
-<input type="checkbox" id="abstract-persona" class="abstract-toggle-input">
-
-##### **Persona Construction for Large Language Model Agents in Experimental Asset Markets**
-
-(with Benjamin Manning, Christopher Avery, and Colin Camerer)
-
-<label for="abstract-persona" class="abstract-toggle-label">Abstract</label>
-
-<div class="abstract-text" markdown="1">
-Despite many theories and much data, there is still no consensus on why bubbles form. Laboratory markets have narrowed the question, but they are slow and costly enough to bound how many designs can be run, and so limit how much of such a complex system we can study. Markets populated by language model (LLM) agents are not so bounded. Still, an agent has no disposition until it is given one. In our paper, we propose a method for constructing 'personas' for traders in experimental asset markets: (1) from the archetypes financial theory already identifies, and (2) by letting an optimizer evolve them against behavioral coefficients estimated from individual human subjects. To judge whether those personas look human we use timing. Across 247 constant fundamental value laboratory sessions from 11 studies, the period at which a session's price peaks is close to proportional to the length of the session. Running every combination of our six archetypes, one — noise traders alongside rational arbitrageurs — comes closest to the human benchmark on both timing and mispricing, while the evolved personas land near the benchmark without having been shown it. Combined, this paper acts as a starting point for better understanding bubble dynamics.
-</div>
-
-</div>
 
 <div class="paper" markdown="1">
 
