@@ -118,6 +118,10 @@ body {
     max-width: 320px;
     margin: 0;
 
+    figure {
+      margin: 0;
+    }
+
     picture {
       display: block;
     }
@@ -135,7 +139,7 @@ body {
 
     p {
       font-size: 1.1rem;
-      line-height: 1.9;
+      line-height: 1.72;
       margin: 0 0 1.25rem;
       text-align: left;
 
@@ -160,11 +164,10 @@ body {
   }
 }
 
-// Desktop: the bio font size is chosen so the text's visual height (ascender top of the
-// first line to descender bottom of the last) equals the uncropped 3:4 portrait
-// (253.5px wide is about 338px tall; any column from 26rem to 28rem wraps the same way). The margins (em of the bio font size) line the
-// photo up with those two edges; the 2px right margin lines it up with the theme-toggle
-// icon's ink.
+// Desktop: bio left, uncropped 3:4 portrait right. The photo and the text are centered
+// on each other, so the space above and below the shorter one is even; the 2px right
+// margin lines the photo up with the theme-toggle icon's ink, and the 3px top margin
+// compensates for the text's ink sitting about 1.5px below the center of its box.
 @media (min-width: 800px) {
   .about-intro {
     grid-template-columns: minmax(0, 27rem) 253.5px;
@@ -175,13 +178,16 @@ body {
     column-gap: 3rem;
     row-gap: 1.25rem;
 
+    .about-body {
+      align-self: center;
+    }
+
     .profile {
       width: 253.5px;
       max-width: none;
-      align-self: start;
+      align-self: center;
       justify-self: end;
-      font-size: 1.1rem;
-      margin: 0.513em 2px 0.393em 0;
+      margin: 3px 2px 0 0;
     }
   }
 }
