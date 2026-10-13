@@ -24,40 +24,27 @@ layout: default
 
   <article>
     <div class="about-intro">
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+      <div class="about-body">{{ content }}</div>
+
+    {% if page.profile and page.profile.image %}
+      <div class="profile">
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% assign profile_image_class = 'img-fluid' %}
+        {% capture sizes %}(min-width: 960px) 290px, 95vw{% endcapture %}
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+          cache_bust=true
+        %}
       </div>
     {% endif %}
 
-      <div class="about-body">
-        <div class="clearfix">{{ content }}</div>
-
-        <div class="hero-contact">
-          <a href="mailto:chngo@caltech.edu" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/citations?user=uhflVrUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/cadyngo" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/cadyngo" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://osf.io/hxz9q" target="_blank" rel="noopener noreferrer" title="OSF" aria-label="OSF"><i class="ai ai-osf"></i></a>
-        </div>
-      </div>
+      <p class="about-links">
+        <a href="mailto:chngo@caltech.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=uhflVrUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://github.com/cadyngo" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/cadyngo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://osf.io/hxz9q" target="_blank" rel="noopener noreferrer">OSF</a>
+      </p>
     </div>
 
     <!-- News -->

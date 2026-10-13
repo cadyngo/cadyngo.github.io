@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-header_title: "Hi, I'm <span class='pronounce-tip' tabindex='0' style='color: var(--global-theme-color)'>Cady<span class='pronounce-tip__bubble'>(KAY-dee)</span></span>!"
+header_title: "Hi, I'm <span style='color: var(--global-theme-color)'>Cady</span>! <span class='pronounce-note'>(KAY-dee)</span>"
 permalink: /
 # subtitle: Social and Decision Neuroscience @ <a href='https://camerergroup.sites.caltech.edu'>Caltech</a>.
 
@@ -33,4 +33,6 @@ I am a **[Chen Predoctoral Research Fellow](https://neuroscience.caltech.edu/peo
 
 I work across behavioral, experimental, and neuroeconomics to understand decision-making under risk and uncertainty — from financial markets to everyday food choices — using tools such as LLMs, fMRI, and wearable technologies.
 
+<!--
 Perhaps a natural consequence of my liberal arts background is an inability to stick to one discipline, but underlying it all is a desire to understand social and behavioral questions in ways that can better inform decisions and policies.
+-->

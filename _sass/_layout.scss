@@ -83,66 +83,105 @@ body {
   }
 }
 
+// About page: bio on the left, photo on the right. The photo runs from the first
+// line's cap height to the last line's baseline (the em margins below), so text and
+// photo start and end together.
 .about-title {
-  font-size: 3.15rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
+
+  strong {
+    font-weight: inherit;
+  }
 }
 
-// Redesign: two-column hero (portrait | bio + contact) to match the mockup
+.pronounce-note {
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
 .about-intro {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas:
+    'profile'
+    'body'
+    'links';
   gap: 1.5rem;
-}
 
-@media (min-width: 1000px) {
-  .about-intro {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: clamp(1.5rem, 4vw, 2.25rem);
-  }
-
-  .about-intro .profile {
-    flex: 0 0 clamp(250px, 37%, 325px);
-    width: auto;
-    max-width: none;
+  .profile {
+    grid-area: profile;
+    width: 100%;
+    max-width: 320px;
     margin: 0;
-  }
 
-  .about-intro .about-body {
-    flex: 1 1 0;
-    min-width: 0;
-  }
-}
-
-.about-body p {
-  font-size: 1.12rem;
-  line-height: 1.55;
-  margin-bottom: 1.25rem;
-  text-align: justify;
-  hyphens: auto;
-}
-
-// Redesign: hero contact row — icon-only boxes matching the research cards
-.hero-contact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.35rem;
-  margin-top: 0rem;
-  padding-top: 0.3rem;
-
-  a {
-    display: inline-flex;
-    align-items: center;
-    color: var(--global-text-color-light);
-    text-decoration: none;
-
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
+    picture {
+      display: block;
     }
 
-    i {
-      font-size: 2.05rem;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .about-body {
+    grid-area: body;
+    min-width: 0;
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.9;
+      margin: 0 0 1.25rem;
+      text-align: left;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .about-links {
+    grid-area: links;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.6rem;
+    margin: 0;
+    font-size: 1rem;
+
+    a {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+}
+
+// Desktop: the bio font size is chosen so the text's visual height (ascender top of the
+// first line to descender bottom of the last) equals the uncropped 3:4 portrait
+// (253.5px wide is about 338px tall; any column from 26rem to 28rem wraps the same way). The margins (em of the bio font size) line the
+// photo up with those two edges; the 2px right margin lines it up with the theme-toggle
+// icon's ink.
+@media (min-width: 800px) {
+  .about-intro {
+    grid-template-columns: minmax(0, 27rem) 253.5px;
+    grid-template-areas:
+      'body profile'
+      'links links';
+    justify-content: space-between;
+    column-gap: 3rem;
+    row-gap: 1.25rem;
+
+    .profile {
+      width: 253.5px;
+      max-width: none;
+      align-self: start;
+      justify-self: end;
+      font-size: 1.1rem;
+      margin: 0.513em 2px 0.393em 0;
     }
   }
 }
@@ -240,46 +279,6 @@ body {
   font-size: 0.8rem;
   font-style: italic;
   color: var(--global-theme-color);
-}
-
-// Redesign: pronunciation tooltip on the hero name
-.pronounce-tip {
-  position: relative;
-  display: inline-block;
-  vertical-align: baseline;
-  cursor: default;
-  outline: none;
-}
-
-.pronounce-tip__bubble {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-bottom: 0.3rem;
-  z-index: 20;
-  width: max-content;
-  color: var(--global-theme-color);
-  font-family: 'Source Serif 4', ui-serif, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  font-style: italic;
-  line-height: 1.4;
-  letter-spacing: normal;
-  white-space: nowrap;
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(-50%, 4px);
-  transition:
-    opacity 0.15s ease,
-    transform 0.15s ease;
-  pointer-events: none;
-}
-
-.pronounce-tip:hover .pronounce-tip__bubble,
-.pronounce-tip:focus .pronounce-tip__bubble {
-  opacity: 1;
-  visibility: visible;
-  transform: translate(-50%, 0);
 }
 
 body.fixed-top-nav {
