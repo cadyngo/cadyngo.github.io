@@ -6,20 +6,20 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #ddd3e8;
+  --global-bg-color: #e5dfd2;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #17151c;
-  --global-text-color-light: #6b6676;
-  --global-theme-color: #7c3a72;
-  --global-hover-color: #7c3a72;
+  --global-text-color: #1d1b19;
+  --global-text-color-light: #655f57;
+  --global-theme-color: #8a3180;
+  --global-hover-color: #8a3180;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.16);
-  --global-bg-swirl-opacity: 0.115;
-  --global-card-bg-color: #e8dff2;
+  --global-divider-color: rgba(0, 0, 0, 0.14);
+  --global-bg-swirl-opacity: 0.05;
+  --global-card-bg-color: #dcd5c7;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -79,10 +79,10 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #17151c;
+  --global-bg-color: #18171a;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #ddd3e8;
-  --global-text-color-light: #9a94a6;
+  --global-text-color: #e7e4e8;
+  --global-text-color-light: #9c98a0;
   // --global-theme-color: #{$cyan-color};
   // --global-hover-color: #{$cyan-color};
   --global-theme-color: #c79bc0;
@@ -92,8 +92,8 @@ html[data-theme="dark"] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-bg-swirl-opacity: 0.065;
+  --global-divider-color: #3a383c;
+  --global-bg-swirl-opacity: 0.05;
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},

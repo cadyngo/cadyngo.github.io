@@ -83,9 +83,152 @@ body {
   }
 }
 
-// About page: bio on the left, photo on the right. The photo runs from the first
-// line's cap height to the last line's baseline (the em margins below), so text and
-// photo start and end together.
+// About page: bio on the left, photo on the right (desktop layout further below).
+//
+// Vertically center the page in the space below the nav (57px: 56px nav + 1px border).
+// The container's 3rem top margin and the body's bottom padding are cancelled so the
+// space is symmetric; the larger 9vh bottom padding (vs 1.5rem on top) lifts the content a bit
+// above true center and still keeps a gap above and below on short screens. No calc()
+// with "+" here: the CSS minifier strips the spaces and breaks it.
+.about-post {
+  margin-top: -3rem;
+  min-height: calc(100vh - 57px);
+  padding: 1.5rem 0 9vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body:has(.about-post) {
+  padding-bottom: 0;
+}
+
+.about-post {
+  position: relative;
+}
+
+// The About and Research sections are two full-screen "pages" that cross-fade (see the
+// script in _layouts/about.liquid). Without the .panels class they just stack.
+.scroll-cue {
+  display: none;
+}
+
+.home-research {
+  padding: 3rem 0 5rem;
+}
+
+.panels {
+  overflow: hidden;
+
+  .view {
+    position: fixed;
+    top: 57px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable both-edges;
+    // Resting position of an inactive view: just below (Research) or just above (About).
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(3rem);
+    transition: opacity 0.3s ease, transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1),
+      visibility 0s linear 0.6s;
+
+    &.is-above {
+      transform: translateY(-3rem);
+    }
+
+    // The incoming view starts a beat after the outgoing one, so it reads as a switch.
+    &.is-active {
+      opacity: 1;
+      visibility: visible;
+      transform: none;
+      transition: opacity 0.4s ease 0.1s, transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1),
+        visibility 0s;
+    }
+  }
+
+  .view__inner {
+    box-sizing: border-box;
+    max-width: $max-content-width;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .view--about .view__inner,
+  .view--research .view__inner {
+    min-height: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: max(9vh, 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  // Research is nearly a full page, so it is centered exactly (no lift like About has).
+  .view--research .view__inner {
+    padding-bottom: 1.5rem;
+  }
+
+  .home-research {
+    padding: 0;
+  }
+
+  .about-post {
+    margin: 0;
+    min-height: 0;
+    padding: 0;
+    display: block;
+  }
+
+  // Fixed to the bottom of the screen (not inside the scrolling page, or it would sit on
+  // top of the content on small screens). It is hidden until About is scrolled to near its
+  // end, and the page reserves room below its content (see padding-bottom) so the two
+  // never overlap.
+  .scroll-cue {
+    display: block;
+    position: fixed;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+
+    &.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+}
+
+// Specific enough to beat the "only colors transition" rule above.
+.panels .view .scroll-cue {
+  transition: opacity 0.3s ease, color 0.2s ease, visibility 0s linear 0s;
+
+  &.is-hidden {
+    transition: opacity 0.3s ease, color 0.2s ease, visibility 0s linear 0.3s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panels .view,
+  .panels .view.is-active {
+    transition: none;
+    transform: none;
+  }
+}
+
 .about-title {
   font-size: 2.5rem;
   font-weight: 500;

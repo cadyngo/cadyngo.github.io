@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<div class="post">
+<script>document.documentElement.classList.add('panels');</script>
+<div class="view view--about is-active" id="about" data-view="about">
+<div class="view__inner">
+<div class="post about-post">
   <header class="post-header about-header">
     <h1 class="post-title about-title">
       {% if page.header_title %}
@@ -87,3 +90,150 @@ layout: default
 {% endcomment %}
   </article>
 </div>
+</div>
+<a class="scroll-cue" href="#research" aria-label="Go to Research">Research <span aria-hidden="true">&darr;</span></a>
+</div>
+
+<div class="view view--research" id="research" data-view="research">
+<div class="view__inner">
+<section class="home-research">
+  {% capture research_html %}{% include research.md %}{% endcapture %}
+  {{ research_html | markdownify }}
+</section>
+</div>
+</div>
+
+<script>
+  // Two "pages" that cross-fade: scrolling past the end of About fades into Research,
+  // and scrolling up from the top of Research fades back. Without JS (or with the
+  // .panels class absent) the two sections simply stack on one page.
+  (function () {
+    var root = document.documentElement;
+    if (!root.classList.contains('panels')) return;
+    var views = {
+      about: document.querySelector('.view--about'),
+      research: document.querySelector('.view--research')
+    };
+    var current = 'about';
+    var locked = false;
+    var navItems = document.querySelectorAll('.navbar .nav-item');
+
+    function setNavActive(name) {
+      navItems.forEach(function (li) {
+        var a = li.querySelector('a.nav-link');
+        if (!a) return;
+        var path = a.getAttribute('href');
+        if (path === '/' || path === '/research/') {
+          li.classList.toggle('active', (path === '/') === (name === 'about'));
+        }
+      });
+    }
+
+    // 'active' is on screen; About rests above and Research rests below when inactive.
+    function setState(k, state) {
+      views[k].classList.toggle('is-active', state === 'active');
+      views[k].classList.toggle('is-above', state === 'above');
+    }
+
+    function go(name, instant) {
+      if (name === current) return;
+      current = name;
+      // Header clicks switch instantly: suppress the transitions for this one change.
+      if (instant) root.classList.add('no-anim');
+      Object.keys(views).forEach(function (k) { setState(k, k === name ? 'active' : (k === 'about' ? 'above' : 'below')); });
+      views[name].scrollTop = 0;
+      if (instant) { void views[name].offsetHeight; root.classList.remove('no-anim'); }
+      setNavActive(name);
+      updateCue();
+      history.replaceState(null, '', name === 'research' ? '#research' : location.pathname + location.search);
+      locked = true;
+      setTimeout(function () { locked = false; }, instant ? 100 : 900);
+    }
+
+    // The cue only shows when the end of About's content is clear of it, so it never
+    // covers content. Re-checked on scroll, on any size change, and after a switch.
+    var cue = document.querySelector('.scroll-cue');
+    var aboutEnd = document.querySelector('.about-links');
+    function updateCue() {
+      var clear = aboutEnd.getBoundingClientRect().bottom <= cue.getBoundingClientRect().top - 8;
+      cue.classList.toggle('is-hidden', !clear);
+    }
+    views.about.addEventListener('scroll', updateCue, { passive: true });
+    views.about.addEventListener('transitionend', updateCue);
+    window.addEventListener('resize', updateCue);
+    if (window.ResizeObserver) { new ResizeObserver(updateCue).observe(views.about); }
+
+    function atTop(v) { return v.scrollTop <= 1; }
+    function atBottom(v) { return v.scrollTop + v.clientHeight >= v.scrollHeight - 1; }
+
+    // Scroll distance needed at the edge of a page before it switches. Small nudges add up
+    // only within a quarter second, so a light touch on the trackpad won't flip the page;
+    // going back to About asks for a firmer scroll than going on to Research.
+    var NEXT_AFTER = 60, BACK_AFTER = 110, accumulated = 0, accDir = 0, accTimer = null;
+    function resetAccumulator() { accumulated = 0; accDir = 0; clearTimeout(accTimer); }
+    function accumulate(dy) {
+      var dir = dy > 0 ? 1 : -1;
+      if (dir !== accDir) { accumulated = 0; accDir = dir; }
+      accumulated += Math.abs(dy);
+      clearTimeout(accTimer);
+      accTimer = setTimeout(resetAccumulator, 250);
+      return accumulated;
+    }
+
+    window.addEventListener('wheel', function (e) {
+      if (e.ctrlKey) return;
+      // Swallow the trackpad momentum that follows a switch so it doesn't scroll the new page.
+      if (locked) { e.preventDefault(); return; }
+      var dy = e.deltaMode === 1 ? e.deltaY * 16 : (e.deltaMode === 2 ? e.deltaY * window.innerHeight : e.deltaY);
+      if (Math.abs(dy) < 1) return;
+      var v = views[current];
+      if (current === 'about' && dy > 0 && atBottom(v)) {
+        if (accumulate(dy) >= NEXT_AFTER) { resetAccumulator(); go('research'); }
+      } else if (current === 'research' && dy < 0 && atTop(v)) {
+        if (accumulate(dy) >= BACK_AFTER) { resetAccumulator(); go('about'); }
+      } else {
+        resetAccumulator();
+      }
+    }, { passive: false });
+
+    var touchY = null;
+    window.addEventListener('touchstart', function (e) { touchY = e.touches[0].clientY; }, { passive: true });
+    window.addEventListener('touchend', function (e) {
+      if (touchY === null || locked) return;
+      var dy = touchY - e.changedTouches[0].clientY;
+      touchY = null;
+      var v = views[current];
+      if (current === 'about' && dy > 60 && atBottom(v)) go('research');
+      else if (current === 'research' && dy < -90 && atTop(v)) go('about');
+    }, { passive: true });
+
+    window.addEventListener('keydown', function (e) {
+      var t = document.activeElement;
+      if (locked || (t && t !== document.body) || e.altKey || e.ctrlKey || e.metaKey) return;
+      var v = views[current];
+      if (['ArrowDown', 'PageDown', ' ', 'End'].indexOf(e.key) > -1 && current === 'about' && atBottom(v)) { e.preventDefault(); go('research'); }
+      else if (['ArrowUp', 'PageUp', 'Home'].indexOf(e.key) > -1 && current === 'research' && atTop(v)) { e.preventDefault(); go('about'); }
+    });
+
+    // Cue and header links switch views instead of loading another page.
+    document.querySelector('.scroll-cue').addEventListener('click', function (e) { e.preventDefault(); go('research'); });
+    document.querySelectorAll('.navbar a.nav-link').forEach(function (a) {
+      var path = a.getAttribute('href');
+      if (path !== '/' && path !== '/research/') return;
+      a.addEventListener('click', function (e) {
+        if (e.metaKey || e.ctrlKey || e.shiftKey) return;
+        e.preventDefault();
+        go(path === '/' ? 'about' : 'research', true);
+      });
+    });
+
+    updateCue();
+
+    if (location.hash === '#research') {
+      setState('about', 'above');
+      setState('research', 'active');
+      current = 'research';
+      setNavActive('research');
+    }
+  })();
+</script>
