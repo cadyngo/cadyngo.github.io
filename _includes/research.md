@@ -10,7 +10,7 @@
 
 (with Thomas Henning, Ross Spoon, Filip-Mihai Toma, Colin Camerer, and Alec Smith) <span class="paper-status">&middot; Under review</span>
 
-<label for="abstract-bubbles" class="abstract-toggle-label">Abstract</label> [Paper](/assets/pdf/Ngo_Cady_Neurobubbles.pdf) [Poster](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) <!-- [Slides](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) -->
+<label for="abstract-bubbles" class="abstract-toggle-label">Abstract</label> [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7525744) [Poster](/assets/pdf/Ngo_Cady_Poster_Bubbles.pdf) <!-- [Slides](/assets/pdf/Ngo_Cady_Slides_Bubbles.pdf) -->
 
 <div class="abstract-text" markdown="1">
 We examine the extent to which price forecasts, emotional arousal, and risk preferences predict the formation and crash of price bubbles in experimental asset markets with a constant fundamental value (CFV). Bubbles are common even with higher stakes and repeated-session experience. Both linear regressions and flexible machine learning models identify lagged returns and forecasts as the strongest predictors of next-period asset returns. Biometric measures of arousal, from individual electrodermal activity (EDA), add little predictive power once lagged returns are controlled for. However, EDA predicts personal trading behavior and performance: high earners exhibit anticipatory arousal before a market crash, whereas low earners display reactionary arousal after the crash begins. Elicited price forecasts fail rationality tests but are well-explained by some adaptive models. Finally, individual risk preferences show no association with market returns, suggesting bubble formation is driven primarily by belief dynamics rather than risk tolerance.
